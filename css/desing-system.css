@@ -38,8 +38,17 @@
   --transition-normal: 0.3s ease;
 }
 
+*, 
+*::before,
+ *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Defina a base do rem para 10px */
-html{ font-size: 62.5%;
+html{ 
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
